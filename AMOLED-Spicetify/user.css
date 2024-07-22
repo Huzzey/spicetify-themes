@@ -54,7 +54,7 @@ body::after {
     /* none | block */
     --display-coverart-image: block !important;
     /* none | block */
-    --display-header-image: none !important;
+    --display-header-image: block !important;
     /* none | block */
     --display-library-image: block !important;
     /* none | block */
@@ -138,14 +138,14 @@ body::after {
     background-image: none;
 }
 
-/* .main-rootlist-wrapper,
+.main-rootlist-wrapper,
 .main-rootlist-topSentinel,
 .main-rootlist-bottomSentinel,
 .main-rootlist-topSentinel div,
 .main-rootlist-bottomSentinel div {
     height: auto !important;
     contain: unset;
-} */
+} 
 .main-trackList-rowPlayCount {
     width: 17ch;
 }
@@ -529,7 +529,7 @@ section.main-buddyFeed-container {
      /_/                    /____/                      
 
      .main-home-homeHeader::before {
-*/
+
 .main-home-home::before {
     content: "   _________  ____  / /_(_) __/_  __      / /___  __(_)\A   / ___/ __ \\/ __ \\/ __/ / /_/ / / /_____/ __/ / / / /\A  (__  ) /_/ / /_/ / /_/ / __/ /_/ /_____/ /_/ /_/ / /\A /____/ .___/\\____/\\__/_/_/  \\__, /      \\__/\\__,_/_/\A     /_/                    /____/                      ";
     white-space: pre-wrap;
@@ -545,7 +545,7 @@ section.main-buddyFeed-container {
     color: var(--spice-banner);
     line-height: 1.2;
 }
-
+*/
 /* top bar */
 .queue-tabBar-active,
 .marketplace-tabBar-active {
@@ -841,22 +841,27 @@ section.main-buddyFeed-container {
 .main-devicePicker-indicator.main-devicePicker-connected {
     display: none;
 }
-
-.gqaWFmQeKNYnYD5gRv3x .GML6YUVCeJvRhGznLnqm {
+/*
+.gglUjikTBtMzCZFgSmpS .DSdahCi0SDG37V9ZmsGO {
     color: var(--lyrics-color-inactive);
     margin-top: 120px !important;
     padding-top: 120px !important;
 }
 
-footer.main-nowPlayingBar-container>div.main-nowPlayingBar-nowPlayingBar>div.main-nowPlayingBar-center>div.player-controls>div.playback-bar>div>div.progress-bar>div.x-progressBar-progressBarBg>div.x-progressBar-sliderArea>div.x-progressBar-fillColor {
+.iWTIFTzhRZT0rCD0_gOK, .hV9v6y_uYwdAsoiOHpzk, .T0fKO6B7LQSCE_VaSM1P{
+    color: var(--lyrics-color-inactive);
+    margin-top: 120px !important;
+    padding-top: 120px !important;
+}
+*/
+.playback-progressbar-container>div>div.progress-bar>div.x-progressBar-progressBarBg>div.x-progressBar-sliderArea>div.x-progressBar-fillColor {
     background: linear-gradient(40deg, #ff0000 0%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 65%, #ff0000 85%);
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     border-bottom-left-radius: 17px;
     border-bottom-right-radius: 17px;
 }
-
-footer.main-nowPlayingBar-container>div.main-nowPlayingBar-nowPlayingBar>div.main-nowPlayingBar-center>div.player-controls>div.playback-bar>div>div.progress-bar>div.x-progressBar-progressBarBg>div.x-progressBar-sliderArea {
+.playback-progressbar-container>div>div.progress-bar>div.x-progressBar-progressBarBg>div.x-progressBar-sliderArea {
     background-color: #080808;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -864,7 +869,7 @@ footer.main-nowPlayingBar-container>div.main-nowPlayingBar-nowPlayingBar>div.mai
     border-bottom-right-radius: 17px;
 }
 
-footer.main-nowPlayingBar-container>div.main-nowPlayingBar-nowPlayingBar>div.main-nowPlayingBar-center>div.player-controls>div.playback-bar>div>div.progress-bar>div.x-progressBar-progressBarBg {
+.playback-progressbar-container>div>div.progress-bar>div.x-progressBar-progressBarBg {
     background-color: #080808;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
@@ -877,3 +882,5 @@ footer.main-nowPlayingBar-container>div.main-nowPlayingBar-nowPlayingBar>div.mai
     mix-blend-mode: unset;
     color: #ffffff;
 }
+
+
